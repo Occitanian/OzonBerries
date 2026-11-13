@@ -1,0 +1,36 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  go_router: ^14.0.0
+  get_it: ^7.6.0
+  talker: ^4.0.0
+  talker_flutter: ^4.0.0
+
+  dio: ^5.7.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.6
+  talker_dio_logger: ^4.0.0
+  talker_bloc_logger: ^4.0.0
+  json_annotation: ^4.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  build_runner: ^2.4.12
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

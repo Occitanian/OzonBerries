@@ -1,0 +1,5 @@
+server:
+  port: 8080 # Может быть любым свободным портом
+proxy:
+  - target: "https://dummyjson.com"
+    prefix: "/api/"
